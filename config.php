@@ -28,8 +28,8 @@ $CFG->session_redis_acquire_lock_retry = 100; // Optional, default is 100ms (fr>
 $CFG->session_redis_lock_expire = 7200;
 $CFG->session_redis_serializer_use_igbinary = false; // Optional, default is PH>
 
-$CFG->wwwroot   = 'http://10.41.37.196';
-$CFG->dataroot  = '/var/www/html/moodledata';
+$CFG->wwwroot   = 'http://localhost';
+$CFG->dataroot  = '/opt/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
